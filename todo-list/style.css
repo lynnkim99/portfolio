@@ -4,8 +4,9 @@
 
 .item-box{
       width: 100%;
-      background: lightblue;
+      background: lightgreen;
       font-size: 20px;
       height: 50px;
       padding: 10px;
+      border-radius: 10px;
 }
