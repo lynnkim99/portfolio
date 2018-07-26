@@ -2,3 +2,12 @@ body{
     background: linear-gradient(45deg, lightpink, skyblue);
     color: white;
 }
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color: gold;
+}
