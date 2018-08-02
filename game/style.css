@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+  }
+  
+  .board{
+    background: silver; 
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+  }
+  
+  .cell{
+    border: 1px solid gray;
+    width: calc(100vw / 5);
+    height: calc(100vh / 5);
+    box-sizing: border-box;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
